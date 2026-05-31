@@ -24,3 +24,9 @@ section {
 .bg-dark-custom {
     background-color: #1a1412;
 }
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+                url('Kopii3.jpg') no-repeat center center/cover;
+    min-height: 75vh;
+}
