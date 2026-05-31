@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const displayTotal = document.getElementById("total-biaya");
 
     function hitungTransaksi() {
-        
+        const hargaPerPack = parseInt(selectKopi.value) || 0;
     }
 })
