@@ -7,5 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function hitungTransaksi() {
         const hargaPerPack = parseInt(selectKopi.value) || 0;
         const totalPacks = parseInt(inputJumlah.value) || 0;
+
+        const totalBiaya = hargaPerPack * totalPacks;
     }
 })
