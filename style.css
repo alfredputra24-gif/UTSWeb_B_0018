@@ -12,3 +12,7 @@ body {
 section {
     scroll-margin-top: 66px;
 }
+
+.bg-light-custom {
+    background-color: #fcf9f5;
+}
