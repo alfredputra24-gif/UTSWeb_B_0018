@@ -9,5 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const totalPacks = parseInt(inputJumlah.value) || 0;
 
         const totalBiaya = hargaPerPack * totalPacks;
+
+        if (totalBiaya === 0) {
+            displayTotal.innerText = "Rp 0";
+        }
     }
 })
