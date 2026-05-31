@@ -34,3 +34,7 @@ section {
 .text-shadow {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
+
+.target-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
