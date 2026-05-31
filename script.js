@@ -1,1 +1,3 @@
-// init repo
+document.addEventListener("DOMContentLoaded", function () {
+    
+})
